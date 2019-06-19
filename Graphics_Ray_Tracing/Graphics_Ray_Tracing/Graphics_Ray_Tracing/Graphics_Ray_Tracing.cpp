@@ -3,9 +3,11 @@
 
 #include "pch.h"
 #include <iostream>
-
+#include "vector3.h"
 int main()
 {
+	//int *a{ nullptr };
+	//std::cout << a;
 	int nx = 200;
 	int ny = 100;
 	std::cout << "P3\n" << nx << " " << ny << "\n255\n";
@@ -13,16 +15,16 @@ int main()
 	{
 		for (int i = 0; i < nx; i++)
 		{
-			float r = float(i) / float(nx);
+			/*float r = float(i) / float(nx);
 			float g = float(j) / float(ny);
-			float b = 0.2;
-			int ir = int(255.99*r);
-			int ig = int(255.99*g);
-			int ib = int(255.99*b);
+			float b = 0.2f;*/
+			vector3 col(float(i) / float(nx), float(j) / float(ny), 0.2);
+			int ir = int(255.99*col[0]);
+			int ig = int(255.99*col[1]);
+			int ib = int(255.99*col[2]);
 			std::cout << ir << " " << ig << " " << ib << "\n";
 		}
 	}
-    //std::cout << "Hello World!\n"; 
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

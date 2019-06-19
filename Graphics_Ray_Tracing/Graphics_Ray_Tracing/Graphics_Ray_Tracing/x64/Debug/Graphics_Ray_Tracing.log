@@ -1,3 +1,4 @@
 ﻿  Graphics_Ray_Tracing.cpp
-d:\learn\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing.cpp(18): warning C4305: “初始化”: 从“double”到“float”截断
-  Graphics_Ray_Tracing.vcxproj -> D:\Learn\Graphics_Ray_Tracing\Graphics_Ray_Tracing\x64\Debug\Graphics_Ray_Tracing.exe
+d:\learn\ray-tracing-book\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing.cpp(21): warning C4305: “参数”: 从“double”到“float”截断
+d:\learn\ray-tracing-book\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing\graphics_ray_tracing.cpp(24): warning C4305: “=”: 从“double”到“float”截断
+  Graphics_Ray_Tracing.vcxproj -> D:\Learn\Ray-Tracing-Book\Graphics_Ray_Tracing\Graphics_Ray_Tracing\x64\Debug\Graphics_Ray_Tracing.exe
